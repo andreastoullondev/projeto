@@ -18,7 +18,7 @@
         }
 
         function removePropriedade ( objeto, nomeDaPropriedade){
-
+            Reflect.deleteProperty(objeto, nomeDaPropriedade)
         }
 
         adicionarPropriedade(rg, {
